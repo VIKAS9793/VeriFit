@@ -30,7 +30,7 @@
 
 | HITL Rewrite |
 |--------------|
-| ![HITL Rewrite](assets/HITL%20REWRITE.png) |
+| ![HITL Rewrite](assets/HITL.png) |
 
 </details>
 
