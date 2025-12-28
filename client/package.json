@@ -1,0 +1,47 @@
+{
+  "name": "verifit-ui",
+  "version": "0.1.0",
+  "private": true,
+  "description": "VeriFit - Evidence-Based ATS Compliance & Job Matching UI",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@material/material-color-utilities": "^0.3.0",
+    "@mui/icons-material": "^5.18.0",
+    "@mui/lab": "^5.0.0-alpha.160",
+    "@mui/material": "^5.15.0",
+    "@tanstack/react-query": "^5.17.0",
+    "axios": "^1.6.0",
+    "framer-motion": "^10.18.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^7.3.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "ats",
+    "resume",
+    "compliance",
+    "job-matching",
+    "governance",
+    "privacy-first"
+  ],
+  "author": "VeriFit Team",
+  "license": "SEE LICENSE FILE"
+}
