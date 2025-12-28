@@ -4,6 +4,7 @@ import { useTheme, alpha } from '@mui/material/styles';
 import { motion } from 'framer-motion';
 import ExplanationPanel from './ExplanationPanel';
 import { SkillFlashcardGrid } from './SkillFlashcard';
+import RewritePanel from './RewritePanel';
 import { explainScore } from '../api/client';
 
 interface ScoreBreakdown {
@@ -167,6 +168,11 @@ export const AnalysisDashboard = ({ data = MOCK_ANALYSIS, rawScore }: { data?: a
 
                 {/* Skills Snapshot - Interactive NotebookLM Flashcard Style */}
                 <SkillFlashcardGrid skills={data.skills} />
+
+                {/* HITL Rewrite Interface */}
+                <Box sx={{ mt: 4 }}>
+                    <RewritePanel resumeData={data.raw_resume} />
+                </Box>
             </Box>
         </motion.div>
     );

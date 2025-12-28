@@ -13,6 +13,7 @@ flowchart TB
         DASH[AnalysisDashboard]
         XAI[ExplanationPanel]
         SKILL[SkillFlashcard]
+        HITL[RewritePanel]
     end
 
     subgraph API["🔌 Flask API"]
@@ -253,6 +254,7 @@ VeriFit/
 │           ├── AnalysisDashboard.tsx
 │           ├── ExplanationPanel.tsx
 │           ├── Footer.tsx
+│           ├── RewritePanel.tsx
 │           ├── SkillFlashcard.tsx
 │           └── UploadZone.tsx
 ├── docs/

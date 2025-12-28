@@ -50,3 +50,15 @@ export const explainScore = async (scoreData: any) => {
     const response = await apiClient.post('/explain', { score: scoreData });
     return response.data;
 };
+
+/**
+ * HITL: Approve or reject a rewrite suggestion
+ */
+export const approveRewrite = async (suggestionId: string, approved: boolean) => {
+    const response = await apiClient.post('/rewrite/approve', {
+        approval_id: suggestionId,
+        user_id: 'user_' + Date.now(), // MVP: Generate simple user ID
+        approved,
+    });
+    return response.data;
+};

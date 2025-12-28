@@ -28,6 +28,10 @@
 |-------------------|------------------|
 | ![AI Explainability](assets/AI%20EXPLAINABILITY.png) | ![Skills Section](assets/DETAILED%20SKILLS%20SECTION.png) |
 
+| HITL Rewrite |
+|--------------|
+| ![HITL Rewrite](assets/HITL%20REWRITE.png) |
+
 </details>
 
 ---
@@ -54,6 +58,7 @@ Built for candidates, recruiters, and enterprises that value **accuracy over hyp
 | 📄 **Smart Parsing** | LLM-powered resume extraction with regex fallback |
 | 📊 **Evidence-Based Scoring** | Every score backed by specific findings |
 | 🧠 **AI Explainability (XAI)** | "Why this score?" with reasoning chains |
+| ✍️ **HITL Rewrite** | AI suggestions with diff view, requires human approval |
 | 🔒 **Privacy-First** | No data retention, no training on user data |
 | 🎨 **Modern UI** | Material You design with interactive flashcards |
 
